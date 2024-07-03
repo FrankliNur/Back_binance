@@ -1,0 +1,235 @@
+.label{
+    display: block;
+}
+
+/* General styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+  /* Container styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+  /* Row styles */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+  /* Column styles */
+  .col {
+    flex: 1 0 auto;
+    padding: 15px;
+  }
+  
+  /* Header styles */
+  .header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .header h1 {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  /* Popular section styles */
+  .popular {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .popular h3 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* News section styles */
+  .news {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .news article {
+    width: 30%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-bottom: 30px;
+  }
+  
+  .news article h4 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .news article p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  /* Form styles */
+  .form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form input[type="text"],
+.form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+}
+
+.form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+  /* Buttons styles */
+.button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.divdos {
+    display: flex; /* Activar flexbox para el divdos */
+    justify-content: flex-end; /* Alinear el contenido a la derecha */
+    align-items: center; /* Centrar el contenido verticalmente */
+    margin-bottom: 30px; /* Margen inferior */
+}
+/* General styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container styles */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Popular section styles */
+  .popular {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .popular h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 20px;
+    color: #333;
+  }
+  
+  /* Coin list styles */
+  .popular-coins {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .popular-coins li {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding: 20px;
+    width: 25%;
+    text-align: center;
+  }
+  
+  .popular-coins li .coin-name {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .popular-coins li .coin-price {
+    font-size: 14px;
+    color: #333;
+  }
+  
+
+
+
+  .divtres {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+    width: 30%; /* Ajustar el ancho del div */
+  }
+
+.divtres p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+    margin-bottom: 10px;
+}
+.divtres p:last-child {
+    margin-bottom: 0;
+}
+/* Div Uno */
+/* Left div styles */
+.divuno {
+    background-color: #fff;
+    border-radius: 10px;
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+    padding: 0px;
+    width: 30%; /* Adjust width as needed */
+}
+/* Heading styles */
+.titulo_Main {
+    background-image: linear-gradient(to top, #212729, #f5fa52); /* Gradient background */
+    -webkit-background-clip: text; /* Clip background to text */
+    -webkit-text-fill-color: transparent; /* Transparent text color */
+    font-size: 32px; /* Adjust font size as needed */
+    font-weight: bold; /* Bold font weight */
+    text-align: center; /* Center text alignment */
+    margin-top: 0; /* Remove default top margin */
+    padding: 10px 0; /* Adjust top and bottom padding */
+    border-radius: 10px; /* Rounded corners */
+}
+
+  .titulo_Main:first-child { /* Style for the first heading */
+    font-size: 48px; /* Larger font size for the main heading */
+}
+
+
+  /* Responsive styles */
+@media (max-width: 768px) {
+    .news article {
+    width: 100%;
+    }
+}
